@@ -115,7 +115,7 @@
     height: calc(100vh - 50vh);
 }
 .col-gap{
-    column-gap: 50px;
+    column-gap: 100px;
 }
 .hotel-video{
     width: 560px;
