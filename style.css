@@ -31,6 +31,22 @@
 .events-img{
     width: 630px;
 }
+.palette-box{
+    height: 100px;
+    width: 100px
+}
+.dark-brown-bg{
+    background: #AE7C41;
+}
+.light-brown-bg{
+    background: #C4A795;
+}
+.dirty-white-bg{
+    background: #F4EBE2;
+}
+.dull-grey-bg{
+    background: #88827C;
+}
 
 /* Texts & Font Styles */
 .main-font{
@@ -101,6 +117,10 @@
 .col-gap{
     column-gap: 50px;
 }
+.hotel-video{
+    width: 560px;
+    height: 314px;
+}
 
 @media (max-width: 912px){
     .container-mobile{
@@ -117,9 +137,6 @@
     .img-bet{
         width: 40px;
     }
-    /* .title-position {
-        margin-top: -135px;
-    } */
     .brand-display{
         display: block;
     }
@@ -155,13 +172,20 @@
     .navbar-nav .nav-link{
         width: 100%;
     }
-    .d-flex.justify-content-center.mt-5.col-gap {
+    .d-flex.justify-content-center.col-gap {
         display: block !important;
         text-align: center;
     }
     .cover-img{
         height: 59vh !important;
         object-fit: cover;
+    }
+    .hotel-video{
+        width: auto;
+        height: 314px;
+    }
+    .palette-box {
+        width: 100%;
     }
 }
 
