@@ -57,6 +57,13 @@
 .content{
     font-size: 30px;
 }
+.custom-links {
+    color: #6c757d;
+    text-decoration: none;
+}
+.custom-links:hover {
+    color: #573414;
+}
 /* .title-position{
     margin-top: -202px;
 } */
