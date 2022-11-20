@@ -152,6 +152,10 @@
         display: block !important;
         text-align: center;
     }
+    .cover-img{
+        height: 59vh !important;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 280px){
