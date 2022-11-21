@@ -121,6 +121,10 @@
     width: 560px;
     height: 314px;
 }
+.save-the-date-vid{
+    width: 500px;
+    border-radius: 30px;
+}
 
 @media (max-width: 912px){
     .container-mobile{
@@ -185,6 +189,9 @@
         height: 165px;
     }
     .palette-box {
+        width: 100%;
+    }
+    .save-the-date-vid{
         width: 100%;
     }
 }
